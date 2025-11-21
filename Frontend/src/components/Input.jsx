@@ -137,7 +137,7 @@ function Input() {
     }, [response]);
 
     return (
-        <div className="w-full flex flex-col justify-between h-full">
+        <div className="p-2 w-full flex flex-col justify-between h-full">
 
             {/* TOP PROFILE */}
             <MessageProfile />
