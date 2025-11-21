@@ -22,7 +22,7 @@ export default function ChatPage() {
   }, [user, navigate]);
 
   return (
-    <div className="animate-border w-full max-w-6xl min-h-screen mx-auto p-3">
+    <div className="animate-border w-full max-w-6xl min-h-screen max-h-[900px] mx-auto p-3">
 
       <div className="flex flex-col md:flex-row h-full gap-4">
 
