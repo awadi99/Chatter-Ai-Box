@@ -24,7 +24,7 @@ export default function ChatPage() {
   return (
     <div className="animate-border w-full max-w-6xl min-h-auto mx-auto p-3 z-100">
 
-      <div className="flex flex-col md:flex-row h-full">
+      <div className="flex flex-col md:flex-row h-full gap-3 ">
 
         {/* LEFT SECTION */}
         <div className="w-full md:w-[310px] flex flex-col gap-3 ">
@@ -81,7 +81,7 @@ export default function ChatPage() {
         </div>
 
         {/* RIGHT SECTION */}
-        <div className="flex-1 flex justify-center items-center overflow-hidden p-1">
+        <div className="flex-1 flex justify-center items-center overflow-hidden ">
 
           <div className="p-3 w-full md:w-[900px] lg:w-[950px] min-h-[600px] md:min-h-[650px] overflow-hidden flex justify-center items-center relative">
 
