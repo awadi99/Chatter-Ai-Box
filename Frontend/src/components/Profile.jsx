@@ -31,7 +31,7 @@ function Profile() {
     const logOut1 = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3000/api/auth/logout");
+            const res = await axios.post("https://chatter-ai-box-backend.onrender.com/api/auth/logout");
             socket.disconnect();
             if (userLogin) {
                 toast.success("Logout Successful", {
@@ -69,7 +69,7 @@ function Profile() {
             playClickSound();
 
             try {
-                const res = await axios.put("http://localhost:3000/api/auth/update-profile",
+                const res = await axios.put("https://chatter-ai-box-backend.onrender.com/api/auth/update-profile",
                     { profilePic: base64Image },
                     { withCredentials: true }
 
