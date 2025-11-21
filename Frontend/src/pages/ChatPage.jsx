@@ -22,12 +22,12 @@ export default function ChatPage() {
   }, [user, navigate]);
 
   return (
-    <div className="animate-border w-full max-w-6xl min-h-screen max-h-[900px] mx-auto p-3">
+    <div className="animate-border w-full max-w-6xl min-h-screen mx-auto p-3">
 
       <div className="flex flex-col md:flex-row h-full gap-4">
 
         {/* LEFT SECTION */}
-        <div className="w-full md:w-[300px] flex flex-col gap-3">
+        <div className="w-full md:w-[260px] flex flex-col gap-3">
 
           <Profile />
 
@@ -36,11 +36,10 @@ export default function ChatPage() {
             <button
               onClick={() => setAct("contacts")}
               className={`w-full border text-sm font-medium px-3 py-2 rounded-2xl text-center transition-all
-              ${
-                active === "contacts"
+              ${active === "contacts"
                   ? "bg-violet-500 text-white"
                   : "border-violet-500 text-violet-400"
-              } hover:bg-violet-600 hover:text-white`}
+                } hover:bg-violet-600 hover:text-white`}
             >
               Contacts
             </button>
@@ -48,11 +47,10 @@ export default function ChatPage() {
             <button
               onClick={() => setAct("chats")}
               className={`w-full border text-sm font-medium px-3 py-2 rounded-2xl text-center transition-all
-              ${
-                active === "chats"
+              ${active === "chats"
                   ? "bg-violet-500 text-white"
                   : "border-violet-500 text-violet-400"
-              } hover:bg-violet-600 hover:text-white`}
+                } hover:bg-violet-600 hover:text-white`}
             >
               Chats
             </button>
@@ -85,7 +83,7 @@ export default function ChatPage() {
         {/* RIGHT SECTION */}
         <div className="flex-1 flex justify-center items-center overflow-hidden">
 
-          <div className="w-full md:w-[900px] lg:w-[950px] h-[550px] md:h-[650px] overflow-hidden flex justify-center items-center">
+          <div className="w-full md:w-[900px] lg:w-[950px] min-h-[600px] md:min-h-[650px] overflow-hidden flex justify-center items-center relative">
 
             {active === "chats" && Activity === "ai" ? (
               <AiChats />
