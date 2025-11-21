@@ -113,7 +113,7 @@ export function AiChats() {
                 </ScrollAnimation>
 
 
-                <div className="mt-5">
+                <div className="mt-7">
                     <form aciton="" onSubmit={sendValue}>
                         <div className={`display flex flex-row justify-between text-[20px] w-full px-5 py-2 h-[40px] rounded-2xl border text-sm font-medium
                 border-violet-500 text-violet-400 
