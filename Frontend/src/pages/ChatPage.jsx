@@ -24,7 +24,7 @@ export default function ChatPage() {
   return (
     <div className="animate-border w-full max-w-6xl min-h-auto mx-auto p-3 z-100">
 
-      <div className="flex flex-col md:flex-row h-full gap-4">
+      <div className="flex flex-col md:flex-row h-full">
 
         {/* LEFT SECTION */}
         <div className="w-full md:w-[310px] flex flex-col gap-3">
@@ -64,7 +64,7 @@ export default function ChatPage() {
         </div>
 
         {/* MIDDLE SECTION */}
-        <div className="hidden md:flex items-start justify-center px-2">
+        <div className="md:flex items-start justify-center px-2 border-b md:border-b-0 md:border-r border-gray-600/50">
           <ToastContainer
             position="top-center"
             autoClose={1000}
