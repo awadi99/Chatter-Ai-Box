@@ -24,15 +24,15 @@ export default function ChatPage() {
   return (
     <div className="animate-border w-full max-w-6xl min-h-auto mx-auto p-3 z-100">
 
-      <div className="flex flex-col md:flex-row h-full gap-3 ">
+      <div className="flex flex-col md:flex-row h-full gap-2 ">
 
         {/* LEFT SECTION */}
-        <div className="w-full md:w-[310px] flex flex-col gap-3 ">
+        <div className="w-full md:w-[310px] flex flex-col gap-2 ">
 
           <Profile />
 
           {/* Toggle Buttons */}
-          <div className="flex gap-3">
+          <div className="flex gap-2">
             <button
               onClick={() => setAct("contacts")}
               className={`w-full border text-sm font-medium px-3 py-2 rounded-2xl text-center transition-all
