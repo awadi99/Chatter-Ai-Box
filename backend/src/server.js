@@ -13,7 +13,7 @@ dotenv.config();
 
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chatter-ai-box-frontend.onrender.com",
     credentials: true,
 }))
 app.use(express.json({ limit: "25mb" }));
