@@ -14,7 +14,7 @@ export default function Chats() {
     useEffect(() => {
         const getChat = async () => {
             try {
-                const res = await axios.get("http://localhost:3000/api/messages/chats", {
+                const res = await axios.get("https://chatter-ai-box-backend.onrender.com/api/messages/chats", {
                     withCredentials: true,
                 });
                 setChats(res.data);
