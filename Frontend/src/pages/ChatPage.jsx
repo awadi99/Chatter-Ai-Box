@@ -24,7 +24,7 @@ export default function ChatPage() {
   return (
     <div className="animate-border w-full max-w-6xl min-h-auto mx-auto p-3 z-100">
 
-      <div className="flex flex-col md:flex-row h-full gap-2 ">
+      <div className="flex flex-col md:flex-row h-full">
 
         {/* LEFT SECTION */}
         <div className="w-full md:w-[310px] flex flex-col gap-3 ">
