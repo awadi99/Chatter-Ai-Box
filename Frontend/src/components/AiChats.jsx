@@ -67,9 +67,9 @@ export function AiChats() {
 
     return (
         <>
-            <div className='h-[650px]'>
+            <div className='h-[775px]'>
                 <div
-                    className={` p-3 mt-2 w-auto rounded-2xl cursor-pointer text-violet-400
+                    className={` p-3 mt-2 w-full rounded-2xl cursor-pointer text-violet-400
                     transition-all hover:text-purple-500`}
                 >
                     <div className="w-full flex justify-between gap-3 p-3 bg-slate-700 rounded-2xl contrast-150">
