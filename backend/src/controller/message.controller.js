@@ -145,7 +145,7 @@ export const sendReply = async (req, res) => {
         }
 
         const response = await ai.models.generateContent({
-            model: "gemini-3.6-flash",   
+            model: "gemini-3.5-flash",   
             contents: [
                 {
                     role: "user",
